@@ -5,10 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Client Web</title>
     <!-- Inserire qui il codice per caricare i css di w3.css! --> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
             
   </head>
   <body>
     <!-- Inserire qui il codice per definire il form -->
+    <div class="w3-card-4">
+      <div class="w3-container w3-green">
+        <h2>Registrazione</h2>
+        <h4>Inserire generalità</h4>
+      </div>
+      <form class="w3-container">
+      </form>
+      <br>
+      <label>Nome</label>
+      <input class="w3-input w3-border" type="text" name="nome">
+      <br>
+      <label>Cognome</label>
+      <input class="w3-input w3-border" type="text" name="cognome">
+      <br>
+      <label>Età</label>
+      <input class="w3-input" type="number" name="eta">
+      <br>
+      <label>Data Registrazione</label>
+      <input class="w3-input" type="date" name="dataRegistrazione">
+      <br>
+      <label>Password Evento</label>
+      <input class="w3-input w3-border" type="password" name="pwdEvent">
+    </div>
+    
+    <div class="w3-container w3-green">
+      <h2>Gadget</h2>
+    </div>
+    <form class="w3-container w3-card-4">
+      <p>
+      <input class="w3-check" type="checkbox" name="gadget1" value="sciarpa" checked="checked">
+      <label>Sciarpa</label></p>
+      <p>
+      <input class="w3-check" type="checkbox" name="gadget2" value="cappellino" >
+      <label>Cappellino</label></p>
+      <p>
+      <input class="w3-check" type="checkbox" name="gadget3" value="fischietto" disabled >
+      <label>Fischietto</label></p>
+    </form>
+
+    
+
+    <div class="w3-container w3-green">
+      <h2>Settore Tribuna</h2>
+    </div>
+    <form class="w3-container w3-card-4">
+      <p>
+      <input class="w3-radio" type="radio" name="settore" value="est">
+      <label>Est</label></p>
+      <p>
+      <input class="w3-radio" type="radio" name="settore" value="ovest" checked>
+      <label>Ovest</label></p>
+      <p>
+      <input class="w3-radio" type="radio" name="settore" value="nord">
+      <label>Nord</label></p>
+      <p>
+      <input class="w3-radio" type="radio" name="settore" value="sud">
+      <label>Sud</label></p>
+    </form>
+
+
+    <div class="w3-container w3-green">
+      <h1>Taglia Maglietta</h1>
+    </div>
+    <form class="w3-container w3-card-4">
+      <select class="w3-select" name="taglia">
+        <option value="" disabled selected>Scegli la taglia</option>
+        <option value="S">Small</option>
+        <option value="M">Media</option>
+        <option value="L">Large</option>
+      </select>
+      <p>
+    </form>
+    
          
   </body>
 </html>
